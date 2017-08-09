@@ -1,24 +1,13 @@
-# README
+# MyBlog
+<!-- # [Homepage](http://) -->
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Dependências:
+* RVM (https://rvm.io/rvm/install)
 
-* Ruby version
+* Ruby: 2.4.1
+* Rails: 5.1
 
-* System dependencies
+  rvm install ruby 2.4.1
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Blog in Ruby on Rails + Material Design Lite: https://getmdl.io/:
