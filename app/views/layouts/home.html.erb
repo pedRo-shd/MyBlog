@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Myblog</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons" %>
+
+
+  </head>
+
+  <body>
+    <%= render partial: "layouts/home_shared/navigation" %>
+    <%= yield %>
+    <%= render partial: "layouts/home_shared/footer" %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </body>
+</html>
